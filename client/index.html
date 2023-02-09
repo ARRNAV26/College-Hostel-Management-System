@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>college ginnie</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="home">
+      <div class="container-1">
+        <div class="logo">
+          <h1>college ginnie</h1>
+          <img id="logoImage" src="../images/ginnieLogo.jpg" alt="" />
+        </div>
+        <nav>
+          <div class="nav">
+            <ul class="navMenu">
+              <li class="navList"><a href="#home">Home</a></li>
+              <li class="navList"><a href="#about">About</a></li>
+              <li class="navList"><a href="#services">Services</a></li>
+              <li class="navList"><a href="#team">Team</a></li>
+              <li class="navList"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div id="login">
+          <button id="login-btn" class="btn-primary"><a href="./login.html">Login/signup</a></button>
+        </div>
+      </div>
+    </header>
+    <main id="home">
+      <div class="container-2">
+        <div class="box-1">
+          <div id="header1">
+            <h1 data-aos="fade-left">COLLEGE</h1>
+          </div>
+          <div id="header2">
+            <h1 data-aos="fade-right">GINNIE</h1>
+          </div>
+          <hr>
+          <p id="headPara"  class="h-secondary" data-aos="fade-up">
+            get the college you wish !! 
+            <br>
+            Best hostels,mess around the college as well !
+
+          </p>
+        </div>
+        <div class="box-2" data-aos="zoom-in">
+          <img src="../images/headbg1.png" alt="error to load the image" />
+        </div>
+      </div>
+    </main>
+    <div class="about" id="about">
+        <h1 class="h-primary">What we do ?</h1>
+        <div class="aboutBox">
+            <div class="box-3" data-aos="zoom-out">
+                <img src="../images/aboutPageIMg.jpeg" alt="">
+            </div>
+            <div class="box-4">
+                <p class="h-secondary" data-aos="fade-down">
+                    We provide a list of colleges. You can get information about different colleges, their ratings and reviews by our verified users. The most important thing in being a college student is healty environment and diet. You will get to know about different hostels and the messes around your desired college. You can get information about their facilities and also can rate them according your experience for our juniors. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="h-primary" id="services">Our services</h1>
+    <div class="services">
+        <div class="service" id="service-1" data-aos="flip-left">
+            <h2 class="h-secondary">COLLEGES</h2>
+            <img src="../images/servicesClg.jpeg" alt="">
+            <div>
+                <button  class="h-secondary"><a href="./colleges.html">Know More</a></button>
+            </div>
+        </div> 
+        <div class="service" id="service-2" data-aos="flip-down">
+            <h2 class="h-secondary">HOSTELS</h2>
+            <img src="../images/servicesHostel.jpeg" alt="">
+            <div>
+                <button class="h-secondary"><a href="./hostel.html">Know More</a></button>
+            </div>
+        </div>
+        <div class="service" id="service-3" data-aos="flip-right">
+            <h2 class="h-secondary">MESSES</h2>
+            <img src="../images/servicesMess.jpeg" alt="">
+            <div>
+                <button class="h-secondary"><a href="./mess.html">Know More</a></button>
+            </div>
+        </div>
+        
+    </div>
+    <!-- <div id="beforeLogin">
+      <p class="h-secondary"> !!!!!    Please login for services   !!!</p>
+    </div> -->
+    <h1 class="h-primary" id="team">Our Team</h1>
+    <div class="team">
+        <div class="members" id="member1">
+            <div class="Box" data-aos="zoom-out">
+                <img src="../images/myProfile.jpg" alt="">
+            </div>
+            <div class="Box" data-aos="flip-up">
+                <h1 class="h-secondary">Rushikesh Khiste</h1>
+                <ul class="h-secondary">
+                    <li>Front-end Devloper</li>
+                    <li>Back-end Devloper</li>
+                    <li><a href="https://www.linkedin.com/in/rushikesh-khiste-7391251ab/?originalSubdomain=in" target="_blank">LinkedIN</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="members" id="member2">
+            <div class="Box" data-aos="zoom-out">
+                <img src="../images/shubhamProfile.jpg" alt="">
+            </div>
+            <div class="Box" data-aos="flip-up" >
+                <h1 class="h-secondary">Shubham Kulkarni</h1>
+                <ul class="h-secondary">
+                    <li>Front-end Devloper</li>
+                    <li>Back-end Devloper</li>
+                    <li><a href=""><a href="https://www.linkedin.com/in/shubham-kulkarni-004bb3255" target="_blank">LinkedIN</a></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h1 class="h-primary" id="contact"><i class="fa-solid fa-address-book"></i>    Contact Form</h1>
+    <form action="" id="contactForm">
+        <div class="contact1" data-aos="zoom-in-left">
+            
+            <h1 class="h-secondary">Send Us a Message</h1>
+            <div>
+                
+                <label for="userName">Name: </label><br>
+                <input type="text" placeholder="Enter your name " id="userName" name="userName"><br>
+            </div>
+            <div>
+                <label for="userEmail"><i class="fa-solid fa-envelope"></i>      Email: </label><br>
+                <input type="text" placeholder="Enter your email " id="userEmail" name="userEmail"><br>
+            </div>
+            <div>
+                <label for="userComment">Comments: </label><br>
+                <textarea name="userComment" id="userComment" cols="30" rows="10" placeholder="Enter your comments here"></textarea><br>
+            </div>
+            <div>
+                <button type="submit" id="commentSubmit" class="submit-btn">Submit</button>
+                <button type="reset" class="reset-btn">Reset</button>
+            </div>
+        </div>
+        <div class="contact2" data-aos="zoom-in-right">
+            <h1 class="h-secondary">contact information</h1>
+            <ul class="contactDetails">
+                <li><span>Address: </span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, amet? Ullam quod consectetur error ipsam optio?</li>
+                <li><span><i class="fa-solid fa-envelope"></i>     Email: </span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe a quisquam laborum provident. Rem, dignissimos!</li>
+                <li><span><i class="fa-solid fa-mobile-button"></i> Mobile No.:</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus unde soluta consequatur ducimus quae id ut?</li>
+                <li><span><i class="fa-sharp fa-solid fa-browser"></i>Website: </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit illum qui repellat magnam voluptatibus neque consequatur</li>
+            </ul>
+        </div>
+        </form>
+        <footer>
+            <h2 class="h-secondary">&copy;collegeGinnie.com</h2>
+        </footer>
+
+        <script  src="./index.mjs" type="module"></script>
+        <!-- <script src="./login.js"></script> -->
+        <script src="https://kit.fontawesome.com/b5d320e5d4.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration:1000,
+            once: true
+          });
+          </script>
+  </body>
+  
+</html>
